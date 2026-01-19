@@ -8,7 +8,7 @@ namespace S100Schema
         static void Main(string[] args)
         {
             Console.WriteLine("Testing S124");
-            //s124.TestS124.RunTest();
+            s124.TestS124.RunTest();
 
             Console.WriteLine("Testing S421");
             s421.TestS421.RunTest();

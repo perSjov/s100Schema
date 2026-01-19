@@ -22,12 +22,6 @@
     <None Update="Schemas\S124\Input\12401AAL202501.gml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Schemas\S124\Input\S1240_070_SE.101 Local Warning.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Schemas\S124\Input\S1240_070_SE.601 Local Warning.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Update="Schemas\S421\Input\RTE-TEST-GBASIC.s421-2.gml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

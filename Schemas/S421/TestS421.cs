@@ -63,6 +63,7 @@ namespace S100Schema.Schemas.S421
                     }
                 }
 
+                //Try to serialize back to xml
                 var projectRoot = Path.GetFullPath(Path.Combine(baseDir, "..", "..", ".."));
                 var outputDir = Path.Combine(projectRoot, "Schemas", "S421", "Output");
                 var path = Directory.CreateDirectory(outputDir);

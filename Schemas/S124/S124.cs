@@ -1402,7 +1402,7 @@ namespace S100Schema.Schemas.S124 {
         
         private string srsDimensionField;
         
-        private double[] textField;
+        private string valueField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="anyURI")]
@@ -1428,12 +1428,12 @@ namespace S100Schema.Schemas.S124 {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlTextAttribute()]
-        public double[] Text {
+        public string Value {
             get {
-                return this.textField;
+                return this.valueField;
             }
             set {
-                this.textField = value;
+                this.valueField = value;
             }
         }
     }
@@ -2137,7 +2137,7 @@ namespace S100Schema.Schemas.S124 {
         
         private string countField;
         
-        private double[] textField;
+        private string valueField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="anyURI")]
@@ -2174,12 +2174,12 @@ namespace S100Schema.Schemas.S124 {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlTextAttribute()]
-        public double[] Text {
+        public string Value {
             get {
-                return this.textField;
+                return this.valueField;
             }
             set {
-                this.textField = value;
+                this.valueField = value;
             }
         }
     }
