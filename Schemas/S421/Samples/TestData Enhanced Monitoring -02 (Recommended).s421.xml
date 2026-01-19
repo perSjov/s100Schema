@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<S421:DataSet gml:id="" xmlns:S421="http://www.iho.int/S421/gml/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:S100_profile="http://www.iho.int/S-100/profile/s100_gmlProfile" xmlns:S100="http://www.iho.int/s100gml/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<gml:boundedBy>
+		<gml:Envelope srsName="EPSG:4326">
+			<gml:lowerCorner>-6.0000 40.0000</gml:lowerCorner>
+			<gml:upperCorner>45.0000 65.0000</gml:upperCorner>
+		</gml:Envelope>
+	</gml:boundedBy>
+	<member>
+		<S421:route gml:id="route.id.guid" routeID="urn:mrn:stm.route.id.guid" routeEditionNo="2" routeEditionCauseNote="New proposed route to avoid danger area" routeFormatVersion="1.0">
+			<routeInfo routeInfoName="TestData-02 EMS" routeInfoAuthor="SC operator" routeInfoStatusDescription="Recommended" routeInfoStatus="3" routeInfoDeparturePort="" routeInfoArrivalPort="" routeInfoReferenceRouteName="" routeInfoReferencePrevRoute="" routeInfoReferenceNextRoute="" routeInfoVesselName="YMER" routeInfoVesselCallsign="" routeInfoVesselMMSI="265066000" routeInfoVesselIMO="7505346" routeInfoVesselVoyage="urn:mrn:stm:voyage:id:sma:20190305113300"/>
+			<routeWaypoints>
+				<routeWaypoint routeWaypointId="1" routeWaypointName="WP1" routeWaypointFixed="0" routeWaypointTurnRadius="0.1">
+					<routeWaypointPosition>
+						<S100:pointProperty>
+							<S100:Point gml:id="ROUTE-A-WP1" srsName="EPSG:4326">
+								<gml:pos>57.6320092353545 11.5683357934802</gml:pos>
+							</S100:Point>
+						</S100:pointProperty>
+					</routeWaypointPosition>
+					<routeWaypointLeg routeWaypointLegStarboardXTDL="0.1" routeWaypointLegPortsideXTDL="0.1" routeWaypointLegStarboardCL="0.2" routeWaypointLegPortCL="0.2" routeWaypointLegGeometryType="1" routeWaypointLegPlanSOGMax="12" routeWaypointLegDraft="8.0"/>
+				</routeWaypoint>
+				<routeWaypoint routeWaypointId="2" routeWaypointName="WP2" routeWaypointFixed="0" routeWaypointTurnRadius="0.1">
+					<routeWaypointPosition>
+						<S100:pointProperty>
+							<S100:Point gml:id="ROUTE-A-WP2" srsName="EPSG:4326">
+								<gml:pos>58.0058186584402 10.4193929609256</gml:pos>
+							</S100:Point>
+						</S100:pointProperty>
+					</routeWaypointPosition>
+					<routeWaypointLeg routeWaypointLegStarboardXTDL="0.1" routeWaypointLegPortsideXTDL="0.1" routeWaypointLegStarboardCL="0.2" routeWaypointLegPortCL="0.2" routeWaypointLegGeometryType="1" routeWaypointLegPlanSOGMax="12" routeWaypointLegDraft="8.0"/>
+				</routeWaypoint>
+				<routeWaypoint routeWaypointId="3" routeWaypointName="WP3" routeWaypointFixed="0" routeWaypointTurnRadius="0.1">
+					<routeWaypointPosition>
+						<S100:pointProperty>
+							<S100:Point gml:id="ROUTE-A-WP3" srsName="EPSG:4326">
+								<gml:pos>57.00 7.20</gml:pos>
+							</S100:Point>
+						</S100:pointProperty>
+					</routeWaypointPosition>
+					<routeWaypointLeg routeWaypointLegStarboardXTDL="0.1" routeWaypointLegPortsideXTDL="0.1" routeWaypointLegStarboardCL="0.2" routeWaypointLegPortCL="0.2" routeWaypointLegGeometryType="1" routeWaypointLegPlanSOGMax="12" routeWaypointLegDraft="8.0"/>
+				</routeWaypoint>
+				<routeWaypoint routeWaypointId="4" routeWaypointName="WP4" routeWaypointFixed="0" routeWaypointTurnRadius="0.1">
+					<routeWaypointPosition>
+						<S100:pointProperty>
+							<S100:Point gml:id="ROUTE-A-WP4" srsName="EPSG:4326">
+								<gml:pos>59.3364146408395 -1.94817443007591</gml:pos>
+							</S100:Point>
+						</S100:pointProperty>
+					</routeWaypointPosition>
+					<routeWaypointLeg routeWaypointLegStarboardXTDL="0.1" routeWaypointLegPortsideXTDL="0.1" routeWaypointLegStarboardCL="0.2" routeWaypointLegPortCL="0.2" routeWaypointLegGeometryType="1" routeWaypointLegPlanSOGMax="12" routeWaypointLegDraft="8.0"/>
+				</routeWaypoint>
+				<routeWaypoint routeWaypointId="5" routeWaypointName="WP5 PBG" routeWaypointFixed="0" routeWaypointTurnRadius="0.1">
+					<routeWaypointPosition>
+						<S100:pointProperty>
+							<S100:Point gml:id="ROUTE-A-WP5" srsName="EPSG:4326">
+								<gml:pos>63.8081326602577 -22.9964939070769</gml:pos>
+							</S100:Point>
+						</S100:pointProperty>
+					</routeWaypointPosition>
+					<routeWaypointLeg routeWaypointLegStarboardXTDL="0.1" routeWaypointLegPortsideXTDL="0.1" routeWaypointLegStarboardCL="0.2" routeWaypointLegPortCL="0.2" routeWaypointLegGeometryType="1" routeWaypointLegPlanSOGMax="12" routeWaypointLegDraft="8.0"/>
+				</routeWaypoint>
+				<routeWaypoint routeWaypointId="6" routeWaypointName="WP6" routeWaypointFixed="0" routeWaypointTurnRadius="0.1">
+					<routeWaypointPosition>
+						<S100:pointProperty>
+							<S100:Point gml:id="ROUTE-A-WP6" srsName="EPSG:4326">
+								<gml:pos>64.2597379379898 -22.9964939070769</gml:pos>
+							</S100:Point>
+						</S100:pointProperty>
+					</routeWaypointPosition>
+					<routeWaypointLeg routeWaypointLegStarboardXTDL="0.1" routeWaypointLegPortsideXTDL="0.1" routeWaypointLegStarboardCL="0.2" routeWaypointLegPortCL="0.2" routeWaypointLegGeometryType="1" routeWaypointLegPlanSOGMax="12" routeWaypointLegDraft="8.0"/>
+				</routeWaypoint>
+				<routeWaypoint routeWaypointId="7" routeWaypointName="WP7 Berth" routeWaypointFixed="0" routeWaypointTurnRadius="0.1">
+					<routeWaypointPosition>
+						<S100:pointProperty>
+							<S100:Point gml:id="ROUTE-A-WP7" srsName="EPSG:4326">
+								<gml:pos>64.1053210212341 -22.3840615800532</gml:pos>
+							</S100:Point>
+						</S100:pointProperty>
+					</routeWaypointPosition>
+					<routeWaypointLeg routeWaypointLegStarboardXTDL="0.1" routeWaypointLegPortsideXTDL="0.1" routeWaypointLegStarboardCL="0.2" routeWaypointLegPortCL="0.2" routeWaypointLegGeometryType="1" routeWaypointLegPlanSOGMax="12" routeWaypointLegDraft="8.0"/>
+				</routeWaypoint>
+			</routeWaypoints>
+			<routeSchedules>
+				<routeSchedule id="1" name="Excel">
+					<routeScheduleManual>
+						<routeScheduleElement routeWaypointId="1" routeScheduleElementPtd="2019-03-10T10:00:00Z"/>
+					</routeScheduleManual>
+					<routeScheduleCalculated>
+            <routeScheduleCalculatedElement routeWaypointId="1" routeScheduleCalculatedElementPtd="2019-03-10T10:00:00Z"/>
+					</routeScheduleCalculated>
+				</routeSchedule>
+			</routeSchedules>
+		</S421:route>
+	</member>
+</S421:DataSet>

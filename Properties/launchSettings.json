@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "S100Schema": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

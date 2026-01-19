@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<S421:DataSet gml:id="KRINC421EX_00001" xmlns:S421="http://www.iho.int/S421/gml/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:S100_profile="http://www.iho.int/S-100/profile/s100_gmlProfile" xmlns:S100="http://www.iho.int/s100gml/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<gml:boundedBy>
+		<gml:Envelope srsName="EPSG:4326">
+			<gml:lowerCorner>-6.0000 40.0000</gml:lowerCorner>
+			<gml:upperCorner>45.0000 65.0000</gml:upperCorner>
+		</gml:Envelope>
+	</gml:boundedBy>
+	<imember>
+		<S421:routeInfo gml:id="ROUTEINFO.01" routeInfoName="AAA" routeInfoAuthor="" routeInfoStatusDescription="" routeInfoStatus="3" routeInfoDeparturePort="" routeInfoArrivalPort="" routeInfoReferenceRouteName="" routeInfoReferencePrevRoute="" routeInfoReferenceNextRoute="" routeInfoVesselName="" routeInfoVesselCallsign="" routeInfoVesselMMSI="" routeInfoVesselIMO="" routeInfoVesselVoyage="">
+			<route xlink:href="ROUTE.01"/>
+		</S421:routeInfo>
+	</imember>
+	<member>
+		<S421:route gml:id="ROUTE.01" routeID="AAA" routeEditionNo="1" routeEditionCauseNote="Test" routeFormatVersion="1.0">
+			<routeWaypoints>
+				<routeWaypoint routeWaypointId="52" routeWaypointFixed="1" routeWaypointTurnRadius="5.0">
+					<routeWaypointPosition>
+						<S100:pointProperty>
+							<S100:Point gml:id="ROUTE-A-WP1" srsName="EPSG:4326">
+								<gml:pos>53.000595 0.251287</gml:pos>
+							</S100:Point>
+						</S100:pointProperty>
+					</routeWaypointPosition>
+					<routeWaypointLeg routeWaypointLegStarboardXTDL="1" routeWaypointLegPortsideXTDL="1" routeWaypointLegStarboardCL="10" routeWaypointLegPortCL="10" routeWaypointLegSafetyContour="11.20000000" routeWaypointLegSafetyDepth="22.20000000"/>
+				</routeWaypoint>
+				<routeWaypoint routeWaypointId="50" routeWaypointFixed="1" routeWaypointTurnRadius="5.0">
+					<routeWaypointPosition>
+						<S100:pointProperty>
+							<S100:Point gml:id="ROUTE-A-WP2" srsName="EPSG:4326">
+								<gml:pos>55.441282 4.085683</gml:pos>
+							</S100:Point>
+						</S100:pointProperty>
+					</routeWaypointPosition>
+					<routeWaypointLeg routeWaypointLegStarboardXTDL="1" routeWaypointLegPortsideXTDL="1" routeWaypointLegStarboardCL="10" routeWaypointLegPortCL="10" routeWaypointLegSafetyContour="11.20000000" routeWaypointLegSafetyDepth="22.20000000"/>
+				</routeWaypoint>
+				<routeWaypoint routeWaypointId="50" routeWaypointFixed="1" routeWaypointTurnRadius="5.0">
+					<routeWaypointPosition>
+						<S100:pointProperty>
+							<S100:Point gml:id="ROUTE-A-WP3" srsName="EPSG:4326">
+								<gml:pos>57.592398 8.145643</gml:pos>
+							</S100:Point>
+						</S100:pointProperty>
+					</routeWaypointPosition>
+					<routeWaypointLeg routeWaypointLegStarboardXTDL="1" routeWaypointLegPortsideXTDL="1" routeWaypointLegStarboardCL="10" routeWaypointLegPortCL="10" routeWaypointLegSafetyContour="11.20000000" routeWaypointLegSafetyDepth="22.20000000"/>
+				</routeWaypoint>
+			</routeWaypoints>
+			<routeSchedules>
+				<routeSchedule id="1" name="Excel">
+					<routeScheduleManual>
+						<routeScheduleElement routeWaypointId="52" routeScheduleElementPtd="2019-03-10T10:00:00Z" />
+					</routeScheduleManual>
+					<routeScheduleCalculated>
+					</routeScheduleCalculated>
+				</routeSchedule>
+			</routeSchedules>
+			<routeActionPoints>
+				<routeActionPoint routeActionPointId="10" routeActionPointName="" routeActionPointRequiredAction="Report" routeActionPointRequiredActionDescription="For example" routeActionPointRadius="5.0"/>
+				<routeActionPointGeometry>
+					<S100:pointProperty>
+						<S100:Point gml:id="ROUTEACTIONPT-A" srsName="EPSG:4326">
+							<gml:pos>55.441282 4.085683</gml:pos>
+						</S100:Point>
+					</S100:pointProperty>
+				</routeActionPointGeometry>
+			</routeActionPoints>
+			<routeInfo xlink:href="ROUTEINFO.01"/>
+		</S421:route>
+	</member>
+</S421:DataSet>
