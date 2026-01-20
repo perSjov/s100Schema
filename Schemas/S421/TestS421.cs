@@ -18,6 +18,7 @@ namespace S100Schema.Schemas.S421
 
             foreach (string file in files)
             {
+                //Can we deserialize?
                 XmlSerializer deser =
                    new XmlSerializer(typeof(ThisDatasetType));
 
@@ -63,7 +64,7 @@ namespace S100Schema.Schemas.S421
                     }
                 }
 
-                //Try to serialize back to xml
+                //Can we serialize back to xml?
                 var projectRoot = Path.GetFullPath(Path.Combine(baseDir, "..", "..", ".."));
                 var outputDir = Path.Combine(projectRoot, "Schemas", "S421", "Output");
                 var path = Directory.CreateDirectory(outputDir);
